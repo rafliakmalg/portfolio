@@ -504,7 +504,10 @@ main {
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.about-text p {
+  text-align: justify; 
+  margin-bottom: 15px; 
+}
 
 
 
@@ -824,6 +827,7 @@ main {
 }
 
 .timeline-text {
+  text-align: justify;
   color: var(--light-gray) !important;
   font-weight: var(--fw-300);
   line-height: 1.6;
